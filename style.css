@@ -1,0 +1,23 @@
+.navbar-img
+{
+  max-height: auto;
+  width: 180px;
+}
+
+.search
+{
+  color: red !important;
+  background-color: white;
+}
+
+.navbar-form
+{
+  width: 40vw;
+}
+
+.navbar-form .form-control
+{
+  width: 80%;
+  border: none;
+  background-color: ghostWhite;
+}

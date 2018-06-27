@@ -3,15 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Udemy bootstrap</title>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
-
+        <a class="navbar-brand" href="#"><img class="navbar-img" src="images/logo-coral.svg" alt="logo"></a>
+        <a class="btn btn-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        <form class="form-inline mx-auto navbar-form">
+          <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="material-icons search">search</i></button>
+        </form>
+        <button type="button" class="btn btn-light">formateurs</button>
+        <button type="button" class="btn btn-light"><i class="material-icons">local_grocery_store</i></button>
+        <button type="button" class="btn btn-outline-dark">sign in</button>
+        <button type="button" class="btn btn-danger">sign up</button>
       </nav>
     </header>
 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
