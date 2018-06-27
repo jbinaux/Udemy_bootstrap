@@ -7,7 +7,6 @@
 .search
 {
   color: red !important;
-  background-color: white;
 }
 
 .navbar-form
@@ -20,4 +19,24 @@
   width: 80%;
   border: none;
   background-color: ghostWhite;
+}
+
+.btn-light
+{
+  background-color: white;
+}
+
+.shopping
+{
+  border-radius: 50%;
+  max-width: 50px;
+}
+
+.foot-image
+{
+  height: 60vh;
+  background-image: url(images/42c7fc6c-ada8-41fa-ac3d-df89623ca315.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
