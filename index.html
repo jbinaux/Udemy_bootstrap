@@ -19,10 +19,12 @@
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
-        <form class="form-inline navbar-form mx-auto nav-item">
+        <div class="input-group nav-item navbar-form">
           <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="material-icons search">search</i></button>
-        </form>
+          <div class="input-group-append">
+            <button type="button" class="btn btn-outline-light search"><i class="material-icons">search</i></button>
+          </div>
+        </div>
         <button type="button" class="btn btn-light nav-item">formateurs</button>
         <button type="button" class="btn btn-light mx-2 shopping nav-item"><i class="material-icons">local_grocery_store</i></button>
         <button type="button" class="btn btn-outline-dark nav-item">sign in</button>
@@ -31,9 +33,16 @@
     </header>
 
     <main>
-      <div class="foot-image">
-        <div class="foot-text">
-
+      <div class="foot-image jumbotron-fluid">
+        <div class="foot-text container">
+          <h1>Ouvrez votre compteur avec des cours au prix de 9,99 € </h1>
+          <h2>Profitez de notre meilleur prix sur les cours : à partir de 9,99 € </h2>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button type="button" class="btn btn-outline-light search"><i class="material-icons">search</i></button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
